@@ -1,1 +1,7 @@
-# Medical-Image-De-Speckling-with-Diffusion-Filters-and-CNN
+# Medical Image De-Speckling Using Fusion of Diffusion-Based Filters And CNN
+
+Work relevant to the IEEE paper:http://dx.doi.org/10.1109/ICACCS54159.2022.9785110, published in 2022 8th International Conference on Advanced Computing and Communication Systems (ICACCS).
+
+Ultrasound images, although significantly low cost when compared to the likes of MRI scans and Biopsy, these images have the disadvantage of being laden with Speckle 
+noise, which is a multiplicative noise, making it less accurate and competitive to the level of details provided on MRI scans. Improving the quality of ultrasound pictures so that they may be used as a viable alternative to MRI scans entails using a combination of different denoising filters to remove noise, based on their individual qualities. Following that, after the initial denoising, CNN was used to perform learning-based denoising to maximize the removal of speckle noise in the
+images. To simulate a real-life scenario, 750 ultrasound images were contaminated with speckle noise. After a comparative analysis of various methods, this paper’s proposed model of combining filters and CNN model achieves a PSNR of approx. 52.25 dB on denoising a speckle- corrupted ultrasound. By combining the best of both worlds of Hybrid filters and CNN denoising, the proposed model achieves solid efficiencies for reducing speckle noise in Ultrasound images, making it a strong alternative.
